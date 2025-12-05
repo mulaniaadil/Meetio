@@ -1,24 +1,24 @@
-🌟 Meetio: The RAG-Enhanced AI Tooling Agent
+### Meetio: The RAG-Enhanced AI Tooling Agent
 
 Repository Tag: murf-ai
 
-[Image: Meetio AI Logo]
+
 
 A Real-Time Conversational Agent Powered by Murf Falcon, Groq, and LiveKit for Tool-Use Orchestration.
 
-📌 Project Overview
+## Project Overview
 
 Meetio is a sophisticated AI voice agent built on the LiveKit Agents framework. It is designed to act as a real-time productivity assistant capable of performing complex, data-driven tasks via voice command. Meetio integrates high-speed ASR, ultra-low-latency TTS, and advanced LLM function-calling capabilities.
 
 The primary innovation is the seamless integration of external knowledge sources: Supabase for internal data querying and Firecrawl for real-time web searches, effectively demonstrating a RAG-like capability to retrieve precise information and execute functions instantly.
 
-💻 Workflow
+## Workflow
 
 The agent operates on a robust, real-time pipeline to ensure fluid conversation and immediate action.
 
 [Image: Meetio: Real-Time Conversational AI Workflow Diagram]
 
-✨ Core Features
+# Core Features
 
 Real-Time Voice (TTS): Utilizes the Murf Falcon TTS API (via livekit-plugins-murf) to deliver spoken responses with industry-leading low latency, ensuring a fluid, natural conversation flow.
 
@@ -32,7 +32,7 @@ Firecrawl: Performs live web searches and crawls external URLs to gather fresh, 
 
 Modular Architecture: Built using the best-of-breed LiveKit plugins, demonstrating a scalable, production-ready voice pipeline.
 
-⚙️ Tech Stack & Dependencies
+# Tech Stack & Dependencies
 
 Meetio is a Python application requiring several key libraries and plugins for its real-time functionality.
 
@@ -85,7 +85,7 @@ pydantic-ai-slim[openai,mcp]
 firecrawl
 
 
-🚀 Setup and Configuration
+## Setup and Configuration
 
 1. Prerequisites
 
