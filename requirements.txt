@@ -1,0 +1,9 @@
+livekit-agents
+livekit-plugins-assemblyai
+livekit-plugins-groq
+livekit-plugins-deepgram 
+livekit-plugins-murf
+livekit-plugins-silero
+python-dotenv
+pydantic-ai-slim[openai,mcp]
+firecrawl
